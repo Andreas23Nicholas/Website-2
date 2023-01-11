@@ -1,0 +1,244 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.layar-dalam {
+  width: 1000px;
+  margin: auto;
+}
+
+.layar-penuh {
+  width: 100%;
+}
+
+/* change the background color */
+.navbar-light {
+    background-color: #890F0D;
+}
+
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+    color: #ffbb00;
+}
+
+button.navbar-toggler{
+    background-color: #f5f6f6;
+}
+
+
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    color: white;
+}
+
+/* pengaturan header */
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+
+header .intro {
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+header .intro h3 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+}
+
+header .intro p {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 50%;
+  z-index: -1;
+}
+
+section {
+  padding: 50px 0px 50px 0px;
+}
+
+section h3 {
+  font-size: 30px;
+}
+
+section h3::after {
+  content: "";
+  border-bottom: 5px solid #1B1A17;
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+  margin-top: 50px;
+}
+
+#welcomesection,
+#team,
+#blog {
+  text-align: center;
+}
+
+.layar-dalam h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+}
+
+.team {
+  background-color: #890F0D;
+}
+
+.team h4 {
+  font-size: 50px;
+  text-align: center;
+  line-height: normal;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+.team p {
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+  font-style: italic;
+  color: #fff;
+}
+
+section p.welcome1 {
+  font-style: italic;
+  font-size: 18px;
+  color: #890F0D;
+}
+
+section .welcome2 p {
+  font-style: normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section .welcome3 p {
+  font-style: normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.layar-dalam h3 {
+  text-align: center;
+  line-height: 50px;
+}
+
+.support,
+.tim,
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.support h6,
+.tim h6 {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.support div,
+.tim div {
+  text-align: center;
+  width: 26%;
+}
+
+section.advantages {
+  background-color:#f5f6f6;
+}
+
+section.advantages .layar-dalam img {
+  height: 100px;
+  width : 110px;
+  margin: 20px auto;
+}
+
+footer {
+  padding: 50px 0px 50px 0px;
+  background-color: #890F0D;
+  color: #fff;
+}
+
+footer .layar-dalam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .layar-dalam h3 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+footer .layar-dalam .copyright {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #1B1A17;
+  text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .layar-dalam {
+    width: 90%;
+  }
+
+  .support {
+    display: block;
+  }
+
+  .support div {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+
+.container{
+  margin-left: 10px;
+}

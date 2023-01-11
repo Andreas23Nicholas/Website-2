@@ -1,0 +1,10 @@
+body{
+    background-image: url(image/bannerBackground.jpg);
+}
+.container{
+    width: 30%;
+    margin-top: 10%;
+    box-shadow: 0 3px 20px #890F0D;
+    padding: 40px;
+    background-color: white;
+}
